@@ -1,0 +1,52 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: -1px;
+    width: 100%;
+    
+}
+#seccion-animada-participar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: fit-content;
+    margin: 0 auto -25px auto;
+    padding: 5px 10px 30px 10px;
+    color: white;
+    background-color: #d20076;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    transition: margin-bottom 0.5s, border-top-right-radius 0.5s, border-top-left-radius 0.5s;
+}
+#seccion-animada-participar:hover{
+    margin-bottom: -15px;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+}
+
+#menu-principal{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: #903495;
+}
+#menu-principal ul{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+}
+#menu-principal li{
+    display: flex;
+    margin:0 20px;
+}
+#icono-participar{
+    content: url("../assets/imgs/manos-levantadas.svg");
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}

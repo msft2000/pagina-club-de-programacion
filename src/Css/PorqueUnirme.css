@@ -1,0 +1,36 @@
+#porqueUnirme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+}
+#porqueUnirme h2{
+    color: #4a354f;
+    margin-bottom: 0;
+}
+.porqueUnirme--tarjetas-info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 40px 40px;
+    margin: 30px 30px 0 30px;
+    border-radius: 15px;
+    box-shadow: 7px 5px 11px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 7px 5px 11px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 7px 5px 11px 4px rgba(0,0,0,0.5);
+    color: white;
+    background: rgb(255,0,118);
+background: linear-gradient(164deg, rgba(255,0,118,1) 24%, rgba(144,52,149,1) 65%);
+    
+}
+.porqueUnirme--tarjetas-info img{
+    width: 100%;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.porqueUnirme--tarjetas-info h3{
+    margin: 10px 0px;
+}
+.porqueUnirme--tarjetas-info p{
+    margin: 0;
+}

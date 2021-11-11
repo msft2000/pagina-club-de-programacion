@@ -1,0 +1,59 @@
+#hero-recibimiento{
+    position: relative;
+    display: flex;
+    padding: 20px 0;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../assets/imgs/programador-ejemplo1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #hero-recibimiento:before{
+    content: '';
+    position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.7);
+} */
+.hero-recibimiento--parte-izquierda{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px -20px 50px 50px;
+    border-left: 4px solid #6f3460;
+    
+}
+.hero-recibimiento--parte-izquierda:before{
+    content: '<h1>';
+    position: absolute;
+    top: -20px;
+    left: -40px;
+    font-weight: bold;
+    color: #ff0076;
+}
+.hero-recibimiento--parte-izquierda:after{
+    content: '</h1>';
+    position: absolute;
+    bottom: -20px;
+    left: -40px;
+    font-weight: bold;
+    color: #ff0076;
+}
+.hero-recibimiento--parte-izquierda p{
+    margin: 0;
+    padding: 0px 50px 0px 10px;
+    font-size: x-large;
+    color: white;
+}
+.hero-recibimiento--parte-derecha{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.hero-icono-programador{
+    content: url('../assets/imgs/gif-data-not-lie.gif');
+    border-radius: 50%;
+    width: 100px;
+}
