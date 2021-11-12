@@ -2,7 +2,7 @@ footer{
     display: flex;
     flex-direction: column;
     position: fixed;
-    bottom: -1px;
+    bottom: -3px;
     width: 100%;
     
 }
@@ -19,14 +19,17 @@ footer{
     background-color: #d20076;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
-    transition: margin-bottom 0.5s, border-top-right-radius 0.5s, border-top-left-radius 0.5s;
+    transition: margin-bottom 0.5s, border-top-right-radius 0.5s, border-top-left-radius 0.5s, width 1s;
 }
 #seccion-animada-participar:hover{
     margin-bottom: -15px;
     border-top-right-radius: 40%;
     border-top-left-radius: 40%;
+    width: 20%;
 }
-
+#seccion-animada-participar p{
+    margin: 0;
+}
 #menu-principal{
     display: flex;
     justify-content: center;

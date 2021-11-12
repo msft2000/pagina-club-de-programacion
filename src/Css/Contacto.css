@@ -1,40 +1,49 @@
-#porqueUnirme{
+#contacto{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    text-align: center;
+    align-items: center;
 }
-#porqueUnirme h2{
+#contacto:first-child h2{
+    color: #4a354f;
     margin-bottom: 0;
 }
-.porqueUnirme--tarjetas-info{
+.contenedor-tarjetas-contacto{
     display: flex;
-    flex-direction: column;
-    padding: 20px 40px 40px 40px;
-    margin: 30px 30px 0 30px;
-    border-radius: 15px;
-    box-shadow: 7px 5px 11px 4px rgba(0,0,0,0.5);
-    -webkit-box-shadow: 7px 5px 11px 4px rgba(0,0,0,0.5);
-    -moz-box-shadow: 7px 5px 11px 4px rgba(0,0,0,0.5);
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
     color: white;
-    /* background: linear-gradient(164deg, rgba(255,0,118,1) 24%, rgba(144,52,149,1) 65%); */
-    background: linear-gradient(154deg,white 24%, rgba(255,0,118,1) 25%);
+    background: linear-gradient(164deg, rgba(255,0,118,1) 24%, rgba(144,52,149,1) 65%);
+
 }
-.porqueUnirme--tarjetas-info img{
-    width: 100%;
-    border-radius: 15px;
-    margin: 0 auto;
+.contenedor-tarjetas-contacto img{
+    width: 80px;
+    height: fit-content;
+    border-radius: 50%;
 }
-.porqueUnirme--tarjetas-info h3{
-    margin: 10px 0px;
+.contenedor-info-contacto{
+    text-align: center;
 }
-.porqueUnirme--tarjetas-info p{
-    margin: 0;
+.contenedor-info-contacto h2{
+    margin: 5px 0;
 }
-#porqueUnirme h2::after {
-    content: "¿Porque deberias unirte?";
-    font-size: x-large;
+.contenedor-info-contacto p{
+    margin: 5px 0;
+    font-weight: 500;
+}
+.iconos-tarjetas-contacto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.iconos-tarjetas-contacto img{
+    width: 40px;
+}
+#contacto .contacto-titulo:after {
+    content: "Contacto";
+    font-size: xx-large;
     border-bottom: 3px solid#4a354f;
     letter-spacing: 0px;
     background-size: 150%;
@@ -143,3 +152,4 @@
     -webkit-text-fill-color: transparent;
 }
 }
+

@@ -6,7 +6,7 @@ import '../Css/PorqueUnirme.css'
 function PorqueUnirme(){
     return(
         <section id="porqueUnirme">
-            <h2>¿Porque deberias unirte?</h2>
+            <h2> </h2>
             <div className="porqueUnirme--tarjetas-info">
                 <img src={imgCampamento} alt="campamentos con charlas de codigo"/>
                 <h3>Campamentos con charlas de código</h3>
