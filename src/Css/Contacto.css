@@ -9,6 +9,7 @@
 }
 .contenedor-tarjetas-contacto{
     display: flex;
+    max-height: 200px;
     align-items: center;
     margin: 20px;
     padding: 10px;
