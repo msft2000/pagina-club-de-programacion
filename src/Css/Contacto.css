@@ -20,7 +20,6 @@
 .contenedor-tarjetas-contacto img{
     width: 80px;
     height: 80px;
-    height: fit-content;
     border-radius: 50%;
 }
 .contenedor-info-contacto{
