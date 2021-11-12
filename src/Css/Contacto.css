@@ -20,6 +20,7 @@
 }
 .contenedor-tarjetas-contacto img{
     width: 80px;
+    height: 80px;
     height: fit-content;
     border-radius: 50%;
 }
@@ -41,6 +42,7 @@
 }
 .iconos-tarjetas-contacto img{
     width: 40px;
+    height: 40px;
 }
 #contacto .contacto-titulo:after {
     content: "Contacto";
