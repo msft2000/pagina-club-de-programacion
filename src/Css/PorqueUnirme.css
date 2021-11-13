@@ -33,15 +33,15 @@
     color: black;
     background: linear-gradient(154deg,#4a354f 44%, white 25%);
 }
-.porqueUnirme--tarjetas-info img{
+.porqueUnirme--tarjetas-info img, .porqueUnirme--tarjetas-info-reverse img{
     width: 100%;
     border-radius: 15px;
     margin: 0 auto;
 }
-.porqueUnirme--tarjetas-info h3{
+.porqueUnirme--tarjetas-info h3, .porqueUnirme--tarjetas-info-reverse h3{
     margin: 10px 0px;
 }
-.porqueUnirme--tarjetas-info p{
+.porqueUnirme--tarjetas-info p, .porqueUnirme--tarjetas-info-reverse p{
     margin: 0;
 }
 #porqueUnirme h2::after {
