@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Link } from 'react-router-dom';
 import { GlobalContext } from "../Context";
 import '../Css/Modal.css';
 import logoAso from '../assets/imgs/logo-aso.png';
