@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Link } from 'react-router-dom';
 import { GlobalContext } from "../Context";
 import '../Css/Modal.css';
 import logoAso from '../assets/imgs/logo-aso.png';
@@ -16,7 +17,7 @@ function Modal(){
                     <p>El siguiente cuestionario nos ayudara a medir tus habilidades actuales para ubicarte en el grupo que más te convenga y comenzar a aprender!</p>
                     <img src={logoAso} alt="logo aso"/>
                     <div className="botones-modal-inscripcion">
-                        <button onClick={cerrarModal}><a href="/#">Ir a llenarlo</a></button>
+                        <a href="https://forms.gle/WwwSVqazH2jZCXx3A" target="_blank" rel="noopener noreferrer"><button>Ir a llenarlo</button></a>
                         <button onClick={cerrarModal}>Cerrar</button>
                     </div>
                 </div>

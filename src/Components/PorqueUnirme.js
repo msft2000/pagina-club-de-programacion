@@ -12,7 +12,7 @@ function PorqueUnirme(){
                 <h3>Campamentos con charlas de código</h3>
                 <p>Se realizan por paseos por fin de ciclo con el fin de socializar ideas y compartir experiencias. </p>
             </div>
-            <div className="porqueUnirme--tarjetas-info">
+            <div className="porqueUnirme--tarjetas-info-reverse">
                 <img src={impTutor_Estudiante} alt="campamentos con charlas de codigo"/>
                 <h3>Tutor-estudiante</h3>
                 <p>Cooperación entre estudiantes de ciclos mayores con estudiantes de ciclos menos.</p>

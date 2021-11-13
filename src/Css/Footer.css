@@ -2,7 +2,7 @@ footer{
     display: flex;
     flex-direction: column;
     position: fixed;
-    bottom: -3px;
+    bottom: -5px;
     width: 100%;
     
 }

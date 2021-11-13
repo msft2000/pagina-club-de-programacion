@@ -12,12 +12,12 @@ function Contacto(){
             <div className="contenedor-tarjetas-contacto">
                 <img alt="Fotos tarjetas de contacto" src={fotoPaulPresi}/>
                 <div className="contenedor-info-contacto">
-                    <h2 className="">Paul Mendieta (Presidente ASO)</h2>
+                    <h2 className="">Felipe Mendieta (Presidente ASO)</h2>
                     <p>Numero de Telefono: 0996960513</p>
                     <div className="iconos-tarjetas-contacto">
                         <a href="https://wa.me/593996960513"><img src={fotoWhatApp} alt="icono redes sociales" className="icono-whatsapp"/></a>
                         <a href="https://t.me/fmendietaz"><img src={fotoTelegram} alt="icono redes sociales" className="icono-telegram"/></a>
-                        <a href="/#"><img src={fotoFacebook} alt="icono redes sociales" className="icono-facebook"/></a>
+                        <a href="https://www.facebook.com/theGuardi4n"><img src={fotoFacebook} alt="icono redes sociales" className="icono-facebook"/></a>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@ function Contacto(){
                     <div className="iconos-tarjetas-contacto">
                         <a href="https://wa.me/593986493415"><img src={fotoWhatApp} alt="icono redes sociales" className="icono-whatsapp"/></a>
                         <a href="https://t.me/mateofloresterreros"><img src={fotoTelegram} alt="icono redes sociales" className="icono-telegram"/></a>
-                        <a href="/#"><img src={fotoFacebook} alt="icono redes sociales" className="icono-facebook"/></a>
+                        <a href="https://www.facebook.com/mateo.floresterreros/"><img src={fotoFacebook} alt="icono redes sociales" className="icono-facebook"/></a>
                     </div>
                 </div>
             </div>
