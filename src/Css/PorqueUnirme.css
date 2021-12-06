@@ -4,9 +4,17 @@
     justify-content: center;
     background-color: white;
     text-align: center;
+    margin: 0 auto;
 }
 #porqueUnirme h2{
     margin-bottom: 0;
+}
+.porqueUnirme--tarjetas--container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
 }
 .porqueUnirme--tarjetas-info{
     display: flex;
@@ -20,10 +28,14 @@
     color: white;
     /* background: linear-gradient(164deg, rgba(255,0,118,1) 24%, rgba(144,52,149,1) 65%); */
     background: linear-gradient(154deg,white 24%, rgba(255,0,118,1) 25%);
+    min-width: 220px;
+    max-width: 300px;
 }
 .porqueUnirme--tarjetas-info-reverse{
     display: flex;
     flex-direction: column;
+    min-width: 220px;
+    max-width: 300px;
     padding: 20px 40px 40px 40px;
     margin: 30px 30px 0 30px;
     border-radius: 15px;
@@ -31,7 +43,7 @@
     -webkit-box-shadow: 7px 5px 11px 4px rgba(0,0,0,0.5);
     -moz-box-shadow: 7px 5px 11px 4px rgba(0,0,0,0.5);
     color: black;
-    background: linear-gradient(154deg,#4a354f 44%, white 25%);
+    background: linear-gradient(154deg,#4a354f 40%, white 25%);
 }
 .porqueUnirme--tarjetas-info img, .porqueUnirme--tarjetas-info-reverse img{
     width: 100%;
@@ -233,4 +245,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+}
+@media (max-width:500px) {
+    .porqueUnirme--tarjetas--container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        text-align: center;
+    }
 }

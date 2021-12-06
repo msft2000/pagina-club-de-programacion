@@ -4,7 +4,6 @@ footer{
     position: fixed;
     bottom: -5px;
     width: 100%;
-    
 }
 #seccion-animada-participar{
     display: flex;
@@ -23,9 +22,9 @@ footer{
 }
 #seccion-animada-participar:hover{
     margin-bottom: -15px;
-    border-top-right-radius: 40%;
-    border-top-left-radius: 40%;
-    width: 20%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    width: 15%;
 }
 #seccion-animada-participar p{
     margin: 0;

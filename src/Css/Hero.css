@@ -1,6 +1,7 @@
 #hero-recibimiento{
     position: relative;
     display: flex;
+    justify-content: space-evenly;
     padding: 20px 0;
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../assets/imgs/programador-ejemplo1.jpg');
     background-position: center;
@@ -12,6 +13,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    max-width: 250px;
     margin: 50px 0px 50px 50px;
     
 }
@@ -40,7 +42,7 @@
 }
 .hero-recibimiento--parte-izquierda svg{
     width: 200%;
-    margin: -35px 0;
+    margin: -35% 0;
     font-size: 65px;
 }
 .text {
@@ -80,13 +82,15 @@
 .hero-recibimiento--parte-derecha{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     width: 100%;
+    max-width: 200px;
+    padding-right: 20px;
 }
 .hero-icono-programador{
     content: url('../assets/imgs/gif-data-not-lie.gif');
     border-radius: 50%;
-    width: 120px;
-    margin-left: 20px;
+    width: 75%;
 }
 
 @-webkit-keyframes stroke {
