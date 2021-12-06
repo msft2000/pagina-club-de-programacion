@@ -18,13 +18,15 @@ footer{
     background-color: #d20076;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
-    transition: margin-bottom 0.5s, border-top-right-radius 0.5s, border-top-left-radius 0.5s, width 1s;
+    transition: margin-bottom 2s, border-top-right-radius 2s, border-top-left-radius 2s, width 2s;
 }
 #seccion-animada-participar:hover{
     margin-bottom: -15px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     width: 15%;
+    max-width: 100px;
+    transition: width 2s, border-top-right-radius 2s, border-top-left-radius 2s;
 }
 #seccion-animada-participar p{
     margin: 0;
